@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+
+body {
+  font-family: Lora, serif;
+  color: black;
+  font-size: 1em;
+  font-weight: 400;
+  margin:0
+}
+.container {
+  margin: 0 auto;
+}
+
+.banner {
+  background-image:linear-gradient(rgba(20, 20, 20, .5),rgba(20, 20, 20, .5)),url(https://source.unsplash.com/random);
+  background-size: cover;
+  color: white;
+  height : 350px;
+  display: flex;
+}
+
+.banner_container {
+  margin: auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.content_container {
+  width: 40%;
+  margin: 40px auto;
+  text-align: justify;
+}
+
+.content_container h2 {
+  color: #A0A1A0;
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  color: #636363;
+  font-size: 1.2em;
+  background-color: rgba(233, 253, 240, 1);
+}
+
+.link:hover {
+  background-color: rgba(125, 255, 179, 1);
+}
